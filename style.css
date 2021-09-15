@@ -79,6 +79,15 @@ span{
   background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
   border-radius: 40px;
 }
+.progress-fill::after{
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: white;
+  right: 0;
+}
 .label{
   width: 100%;
   margin: 10px auto;
